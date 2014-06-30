@@ -48,6 +48,7 @@ module Moped
         return unless document
         chunks_collection.find(files_id: document['_id']).remove_all
         files_collection.find(_id: document['_id']).remove_all
+        true
       end
 
       alias :remove :delete

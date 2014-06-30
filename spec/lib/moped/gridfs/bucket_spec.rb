@@ -68,8 +68,8 @@ describe Moped::GridFS::Bucket do
         subject.open("file", "w").write("buffer")
       end
 
-      it 'returns nil' do
-        expect(subject.delete("file")).to be_nil
+      it 'returns true' do
+        expect(subject.delete("file")).to be_true
       end
 
       it 'deletes the file' do
