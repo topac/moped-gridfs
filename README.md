@@ -63,7 +63,7 @@ You may face race conditions if many threads are writing on the same file a buff
 
 ## Performance
 
-Are pretty the same of mongo-ruby-driver (run the script perf/compare.rb).
+Are pretty much the same of mongo-ruby-driver (run the script perf/compare.rb).
 
 
 ## Installation
